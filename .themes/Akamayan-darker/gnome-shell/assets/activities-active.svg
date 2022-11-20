@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6"
+   version="1"
+   height="496"
+   width="496"
+   sodipodi:docname="activities-active.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.58022673"
+     inkscape:cx="-167.6041"
+     inkscape:cy="251.93005"
+     inkscape:window-x="45"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g7" />
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <g
+     transform="matrix(31.476997,0,0,31.476997,-2.680388,-2.7820803)"
+     id="g7"
+     style="fill:#cccccc">
+    <path
+       d="M 1.0011646,1.0076752 C 0.9982721,5.3384482 1,10.66915 1,14.999925 2.3333333,15.000053 3.6666667,15 5,15 V 5 h 5 V 1 Z M 11,1 v 14 l 4,4.61e-4 C 15.0011,10.667128 14.9982,5.3333326 15.000526,1 Z M 6,6 v 9 h 4 V 6 Z"
+       style="color:#dfdfdf;fill:#cccccc;fill-opacity:0.60363537"
+       class="ColorScheme-Text"
+       id="path5"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+  </g>
+</svg>

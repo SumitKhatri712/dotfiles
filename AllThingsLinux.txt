@@ -1,0 +1,46 @@
+Hello
+creating this file to check if the extend partition
+script worked and my data didn't delete
+
+if the persistent storage gets deleted
+here are the chagne that made to popOS
+
+SOFTWARE:
+
+kitty
+software and update
+neovim 
+tweaks
+ranger
+btop
+htop
+cmatrix
+AutoJump
+Timeshift
+neofetch
+zsh
+oh my zsh
+powerline10k
+git
+
+EXTENSIONS:
+
+User Themes
+GsConnect
+Extension List
+Clipboard Indicator
+
+CHANGES:
+
+set the fastest mirror
+set shortcut to open kitty
+update and upgrade
+changes to bashrc and zshrc
+screenshots for reddit post
+Install extension manager
+Set Up Neovim
+Gruvbox theme
+Nordic Theme
+Everforest Theme
+
+
