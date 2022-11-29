@@ -101,3 +101,4 @@
 : 1669736308:0;sudo nala install nala 
 : 1669736332:0;sudo nala install pulseaudio
 : 1669740967:0;bat .zsh_history | grep 'install' > Dotfiles/output.md
+: 1669746170:0;git commit -m "added the dotfiles syncing script and removed output.md for installed.md"
