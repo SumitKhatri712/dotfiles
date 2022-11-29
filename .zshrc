@@ -107,6 +107,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias bat='batcat'
+export PATH="$HOME/.cargo/bin:$PATH"
+
 plugins=(git extract web-search yum git-extras docker vagrant)
 source /usr/share/autojump/autojump.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
