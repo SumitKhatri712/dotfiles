@@ -103,3 +103,10 @@
 : 1669740967:0;bat .zsh_history | grep 'install' > Dotfiles/output.md
 : 1669746170:0;git commit -m "added the dotfiles syncing script and removed output.md for installed.md"
 : 1669907697:0;sudo nala install openssh-server
+: 1670332314:0;sudo apt install airmon-ng
+: 1670332671:0;sudo nala install aircrack-ng
+: 1670334248:0;sudo nala install aircrack-ng
+: 1670334883:0;sudo nala install aircrack-ng
+: 1670337040:0;sudo nala install micro
+: 1670337395:0;./install.sh 
+: 1670337400:0;sudo ./install.sh

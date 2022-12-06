@@ -37,3 +37,4 @@
   36    install cmatrix                     2022-11-28 19:45:48 IST          1    pop-os (999)  
   37    install nmap                        2022-11-29 17:51:27 IST          4    pop-os (999)  
   38    install openssh-server              2022-12-01 20:45:11 IST          1    pop-os (999)  
+  39    install micro                       2022-12-06 20:00:48 IST          1    pop-os (999)  
