@@ -123,3 +123,5 @@
 : 1670345501:0;sudo bash install.sh
 : 1670347245:0;flatpak install obsidian
 : 1670347648:0;sudo nala install aircrack-ng
+: 1670348190:0;sudo apt install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake autoconf-archive libiniparser-dev libsdl2-2.0-0 libsdl2-dev
+: 1670348305:0;sudo apt install cava
