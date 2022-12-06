@@ -38,3 +38,5 @@
   37    install nmap                        2022-11-29 17:51:27 IST          4    pop-os (999)  
   38    install openssh-server              2022-12-01 20:45:11 IST          1    pop-os (999)  
   39    install micro                       2022-12-06 20:00:48 IST          1    pop-os (999)  
+  40    install cava                        2022-12-06 20:43:40 IST          2    pop-os (999)  
+  41    purge code                          2022-12-06 21:39:37 IST         15    pop-os (999)  

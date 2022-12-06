@@ -110,3 +110,16 @@
 : 1670337040:0;sudo nala install micro
 : 1670337395:0;./install.sh 
 : 1670337400:0;sudo ./install.sh
+: 1670339569:0;grep 'install' .zsh_history
+: 1670339611:0;sudo nala install cava
+: 1670343829:0;rustup self uninstall
+: 1670344611:0;sudo nala install vscodium
+: 1670344618:0;sudo nala install codium
+: 1670345382:0;sudo nala install pfetch
+: 1670345458:0;git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
+: 1670345467:0;sudo bash install.sh
+: 1670345484:0;git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
+: 1670345498:0;cd pfetch-install
+: 1670345501:0;sudo bash install.sh
+: 1670347245:0;flatpak install obsidian
+: 1670347648:0;sudo nala install aircrack-ng
