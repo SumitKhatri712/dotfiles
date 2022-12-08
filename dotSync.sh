@@ -4,7 +4,7 @@ echo " "
 echo "=========Updating Installed.md from zsh_history========="
 echo " "
 # grep the zsh_history file for install keyword and put it in Dotfiles/installed.md
-cat .zsh_history | grep 'install' > Dotfiles/installed.md
+cat .zsh_history | grep -e 'install' -e 'git clone' -e 'wget' > Dotfiles/installed.md
 
 echo " "
 echo "=========Syncing .zshrc file========="
@@ -40,6 +40,20 @@ echo " "
 
 # Put nala history into file
 nala history > ~/Dotfiles/NalaHistory.txt
+
+echo " "
+echo "=========Updating Neovim init.vim========="
+echo " "
+
+#rsync init.vim file
+rsync -avP ~/.config/nvim/init.vim ~/Dotfiles
+
+echo " "
+echo "=========Updating Kitty config========="
+echo " "
+
+#rsync kitty config file
+rsync -avP ~/.config/kitty  ~/Dotfiles/kitty
 
 echo " "
 echo "=========Updating git repository========="
