@@ -1,5 +1,7 @@
 : 1668606855:0;sudo apt install wget git
 : 1668606855:0;wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+: 1668607157:0;git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+: 1668607483:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k~
 : 1668681722:0;sudo apt install aircrack-ng
 : 1668688735:0;sudo apt install gnome-shell-extension-prefs
 : 1668689111:0;sudo apt install gnome-shell-extension-manager
@@ -14,6 +16,7 @@
 : 1668760789:0;pip install --user git+git://github.com/fretboardfreak/kitty-theme-changer.git@master
 : 1668770863:0;sudo apt install tty-clock
 : 1668771010:0;sudo apt install cmatrix
+: 1668771718:0;git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
 : 1668785012:0;sudo apt install tldr
 : 1668785232:0;sudo apt install bat
 : 1668785257:0;sudo apt install nala
@@ -44,7 +47,9 @@
 : 1668955329:0;sudo nala install godot3
 : 1668955542:0;sudo nala install code
 : 1668955893:0;sudo nala install codium
+: 1668956141:0;wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
 : 1668956224:0;nala install codium
+: 1668956394:0;wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
 : 1668956505:0;sudo nala install codium
 : 1668956959:0;nala history | grep "install"
 : 1668957144:0;sudo apt install pop-insatller
@@ -108,10 +113,13 @@
 : 1670334248:0;sudo nala install aircrack-ng
 : 1670334883:0;sudo nala install aircrack-ng
 : 1670337040:0;sudo nala install micro
+: 1670337373:0;git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 : 1670337395:0;./install.sh 
 : 1670337400:0;sudo ./install.sh
+: 1670337478:0;bat .zsh_history | grep "git clone"
 : 1670339569:0;grep 'install' .zsh_history
 : 1670339611:0;sudo nala install cava
+: 1670342601:0;wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
 : 1670343829:0;rustup self uninstall
 : 1670344611:0;sudo nala install vscodium
 : 1670344618:0;sudo nala install codium
@@ -123,11 +131,15 @@
 : 1670345501:0;sudo bash install.sh
 : 1670347245:0;flatpak install obsidian
 : 1670347648:0;sudo nala install aircrack-ng
+: 1670347698:0;wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+: 1670347717:0;wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+: 1670347832:0;wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \\
 : 1670348190:0;sudo apt install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake autoconf-archive libiniparser-dev libsdl2-2.0-0 libsdl2-dev
 : 1670348305:0;sudo apt install cava
 : 1670500542:0;nala install cpufetch
 : 1670500552:0;sudo nala install cpufetch
 : 1670501099:0;sudo nala install lolcat
+: 1670514407:0;git clone https://github.com/dylanaraps/pfetch.git
 : 1670514447:0;sudo install pfetch/pfetch /usr/local/bin
 : 1670514529:0;sudo install pfetch/pfetch /usr/local/bin/\
 : 1670514540:0;sudo install pfetch/pfetch /usr/local/bin/\
