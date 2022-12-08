@@ -40,3 +40,6 @@
   39    install micro         2022-12-06 20:00:48 IST          1    pop-os (999)  
   40    install cava          2022-12-06 20:43:40 IST          2    pop-os (999)  
   41    purge code            2022-12-06 21:39:37 IST         15    pop-os (999)  
+  42    install cpufetch      2022-12-08 17:34:32 IST          1    pop-os (999)  
+  43    install lolcat        2022-12-08 17:42:09 IST         12    pop-os (999)  
+  44    install pinta         2022-12-08 22:08:01 IST         31    pop-os (999)  

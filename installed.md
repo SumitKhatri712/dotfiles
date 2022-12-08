@@ -125,3 +125,10 @@
 : 1670347648:0;sudo nala install aircrack-ng
 : 1670348190:0;sudo apt install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake autoconf-archive libiniparser-dev libsdl2-2.0-0 libsdl2-dev
 : 1670348305:0;sudo apt install cava
+: 1670500542:0;nala install cpufetch
+: 1670500552:0;sudo nala install cpufetch
+: 1670501099:0;sudo nala install lolcat
+: 1670514447:0;sudo install pfetch/pfetch /usr/local/bin
+: 1670514529:0;sudo install pfetch/pfetch /usr/local/bin/\
+: 1670514540:0;sudo install pfetch/pfetch /usr/local/bin/\
+: 1670517387:0;sudo nala install pinta
