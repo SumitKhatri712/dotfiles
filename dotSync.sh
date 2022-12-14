@@ -4,7 +4,7 @@ echo " "
 echo "=========Updating Installed.md from zsh_history========="
 echo " "
 # grep the zsh_history file for install keyword and put it in Dotfiles/installed.md
-cat .zsh_history | grep -e 'install' -e 'git clone' -e 'wget' > Dotfiles/installed.md
+cut -b 1-15 --complement ~/.zsh_history | grep -e 'install' -e 'git clone' -e 'wget' > ~/Dotfiles/installed.md
 
 echo " "
 echo "=========Syncing .zshrc file========="
@@ -12,6 +12,13 @@ echo " "
 
 #rsync .zshrc
 rsync -avP ~/.zshrc ~/Dotfiles
+
+echo " "
+echo "=========Updating Linux Notes in Obsidian========="
+echo " "
+
+rsync -avP ~/Dotfiles/installed.md ~/Obsidian/Vault/Linux
+rsync -avP ~/Dotfiles/NalaHistory.md ~/Obsidian/Vault/Linux
 
 echo " "
 echo "=========Syncing .zsh_history========="
@@ -39,7 +46,7 @@ echo "=========Updating NalaHistory.txt========="
 echo " "
 
 # Put nala history into file
-nala history > ~/Dotfiles/NalaHistory.txt
+nala history > ~/Dotfiles/NalaHistory.md
 
 echo " "
 echo "=========Updating Neovim init.vim========="
@@ -53,7 +60,7 @@ echo "=========Updating Kitty config========="
 echo " "
 
 #rsync kitty config file
-rsync -avP ~/.config/kitty  ~/Dotfiles/kitty
+rsync -avP ~/.config/kitty  ~/Dotfiles
 
 echo " "
 echo "=========Updating git repository========="
