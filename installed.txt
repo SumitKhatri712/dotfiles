@@ -1,0 +1,343 @@
+sudo apt install wget git
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k~
+sudo apt install aircrack-ng
+sudo apt install gnome-shell-extension-prefs
+sudo apt install gnome-shell-extension-manager
+apt list --installed
+sudo apt install dos2unix
+curl -sL install-node.now.sh/lts | bash
+sudo curl -sL install-node.now.sh/lts | bash
+pip install --user git+git://github.com/fretboardfreak/kitty-theme-changer.git@master
+sudo apt install python
+sudo apt install python3
+sudo apt install pip
+pip install --user git+git://github.com/fretboardfreak/kitty-theme-changer.git@master
+sudo apt install tty-clock
+sudo apt install cmatrix
+git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+sudo apt install tldr
+sudo apt install bat
+sudo apt install nala
+sudo nala install autojump
+sudo nala install autojump
+sudo nala install bat
+sudo nala install progress
+sudo nala install timeshift
+sudo nala install cmatrix
+sudo nala install coreutils
+sudo apt install --reinstall  coreutils
+sudo apt install --reinstall autojump
+sudo nala install htop
+cat .bash_history | grep "apt install"
+cat .bash_history | grep "install"
+sudo apt install ubuntu-restricted-extras
+apt search elementary.installer
+apt search io.elementary.installer
+find io.elementary.installer
+find io.elementary.installer
+sudo apt install rsync grsync
+sudo apt install cmatrix
+sudo apt purge pop-installer
+git init
+git branch -m main
+git config --global init.defaultBranch main
+git add README.md
+git commit -m "Added README.md"
+git config --global user.email "khatrisumit712@gmail.com"
+git config --global user.name "Sumit Khatri"
+git commit -m "Added README.md"
+git branch -M main
+git remote add origin https://github.com/SumitKhatri712/dotfiles.git
+git push -u origin main
+git add -a
+git add
+git add .
+touch .gitignore
+git reset
+git status
+nano .gitignore
+git add .
+git status
+git reset
+git add .icons/
+git add .
+git push
+git push --set-upstream origin main
+git remote add origin https://github.com/SumitKhatri712/dotfiles
+git remote add origin https://github.com/SumitKhatri712/dotfiles.git
+git push --set-upstream origin main
+git remote add origin https://github.com/SumitKhatri712/dotfiles.git
+git push --set-upstream origin main
+sudo apt search github
+sudo apt search github-cli
+sudo apt install gh
+git push --set-upstream origin main
+git push
+git push -u origin main
+git .
+git add .
+git commit -m "The dotfiles as of 20 Nov 22, The day of installing Fedora"
+git push
+sudo nala install steam
+sudo nala install godot
+sudo nala install godot3
+sudo nala install code
+sudo nala install codium
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+sudo add-apt-repository 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main'
+nala install codium
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
+echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+sudo nala install codium
+nala history | grep "install"
+sudo apt install pop-insatller
+sudo apt install pop-installer
+sudo nala install bat
+sudo apt install cmatrix
+sudo nala install bat
+sudo nala install grsync
+sudo apt purge pop-installer
+sudo nala install gh
+sudo nala install ubuntu--restricted-extra
+sudo nala install ubuntu-restricted-extra
+sudo nala install ubuntu-restricted-extras
+sudo nala install tldr
+sudo nala install tty-clock
+sudo nala install ranger ncdu btop neovim
+sudo nala install neofetch
+sudo nala install kitty
+sudo nala install htop
+git status
+git add NalaHistory.txt
+git commit -m "Add NalaHistory.txt contains list of installed packages" 
+git push
+git status
+sudo bash ~/Documents/getAptHistory.sh | grep "install"
+git status
+git add NalaHistory.txt
+git commit -m "Changes to NalaHistory.txt" 
+git push
+sudo apt install gtk2-engines-murrine
+sudo apt install cbonzai
+sudo apt install cbonsai
+sudo nala install cbonsai
+sudo nala install cron
+sudo nala install tiled
+sudo nala install cbonsai
+sudo nala install gnome-sushi
+sudo nala install folder-color
+sudo nala install rofi
+bat .zsh_history | grep "install"
+sudo nala install anacron
+snap install
+sudo nala install synaptic
+sudo nala install kate
+sudo nala install code
+bat .zsh_history | grep "install > ~/Document/output.txt
+bat .zsh_history | grep "install" > ~/Documents/output.md
+git add .
+git status
+git add .
+git status
+git commit -m "Added list of programs in output.md and updated nala history"
+git push
+grep -e 'install' -e 'remove' -e 'purge' ~/Documents/output.md
+grep -e 'install' -e 'remove' -e 'purge' .zsh_history
+grep -e 'install' -e 'remove' -e 'purge' .zsh_history > ~/Documents/output.md
+git status
+git add output.md
+git commit -m "updated output.md to show purge and autoremove commands"
+git push
+sudo nala install openssh-client
+sudo nala install openssh-server
+sudo nala install feh
+sudo nala install viu
+sudo nala install sshfs
+cargo install viu
+sudo nala install fim
+sudo nala install cmatrix
+sudo nala install nmap
+sudo nala install pulse audio
+sudo nala install pulseaudio
+sudo nala install nala 
+sudo nala install pulseaudio
+bat .zsh_history | grep 'install' > Dotfiles/output.md
+git status
+bat .gitignore
+git add.
+git add . 
+git add .
+git status
+git commit -m "Added .zsh_history file, updated upto 29/11"
+git push
+git add dotfileSync.sh
+git status
+git commit -m "added the dotfiles syncing script and removed output.md for installed.md"
+git push
+git status
+git add .
+git commit -m "Removed output.md"
+git push
+sudo nala install openssh-server
+sudo apt install airmon-ng
+sudo nala install aircrack-ng
+sudo nala install aircrack-ng
+sudo nala install aircrack-ng
+sudo nala install micro
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+./install.sh 
+sudo ./install.sh
+bat .zsh_history | grep "git clone"
+bat .zsh_history | grep "git"
+grep 'install' .zsh_history
+sudo nala install cava
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+sudo add-apt-repository 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main'
+rustup self uninstall
+sudo nala install vscodium
+sudo nala install codium
+sudo nala install pfetch
+git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
+sudo bash install.sh
+git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
+cd pfetch-install
+sudo bash install.sh
+flatpak install obsidian
+sudo nala install aircrack-ng
+wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \\
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main' \\
+sudo apt install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake autoconf-archive libiniparser-dev libsdl2-2.0-0 libsdl2-dev
+sudo apt install cava
+nala install cpufetch
+sudo nala install cpufetch
+sudo nala install lolcat
+git clone https://github.com/dylanaraps/pfetch.git
+sudo install pfetch/pfetch /usr/local/bin
+sudo install pfetch/pfetch /usr/local/bin/\
+sudo install pfetch/pfetch /usr/local/bin/\
+sudo nala install pinta
+man git
+man git-rm
+sudo install aircrack-ng
+sudo nala install aircrack-ng
+sudo nala install syncthing
+git remote add https:github.com/Sumitkhatri712@gmail.com/Obsidian-notes
+git remote add https:github.com/Sumitkhatri712/Obsidian-notes
+git remote add origin https://github.com/SumitKhatri712/Obsidian-notes.git
+git branch -M main
+git push
+git push --set-upstream origin main
+git status
+git add .gitignore
+git status
+git add .
+git commit -m "removed .gitignore"
+git push
+git add README.md
+git commit -m "add README.md"
+git push
+git pull
+git push
+git config pull.ff only
+git push
+git pull
+git pull
+git status
+git status
+git add 
+git add .
+git status
+git commit -m "added REAME.md"
+git push
+git push --help
+git pull
+git config pull.rebase false
+git pull
+git remote add origin https://github.com/SumitKhatri712/Obsidian-notes.git
+git pull --help
+tldr git pull
+git pull --rebase
+git rebase --continue
+git add README.md
+git rebase --continue
+git rebase --abort
+git status
+git add .
+git commit -m "Empty"
+git push
+git pull
+git pull --rebase
+git pull
+git add .
+git push
+git pull
+git pull .
+git status
+git pull
+git config -l
+micro git config -l
+micro (git config -l)
+git config --edit
+git pull
+git config pull.rebase true
+git pull
+git push
+git add README.md
+git statusa
+git status
+git push
+git status
+git add .
+git commit -m "empty"
+git push
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SumitKhatri712/test1.git
+git push
+git push --set-upstream origin main
+git push -u origin main
+git push --set-upstream origin main
+git init
+git add .
+git commit -m "Reinitialised git repository"
+git remote add origin https://github.com/SumitKhatri712/Obsidian-notes.git
+git push -u origin main
+git push origin main --force
+git push
+git push --set-upstream origin main
+git push
+pip3 install --user nautilus-open-any-terminal
+sudo nala install dconf-editor
+git status
+git add .
+git commit -m "Sync Failed"
+git push
+git push -u origin main
+git status
+cut -b 1-15 installed.md
+cat .zsh_history | grep -e 'install|git clone|wget' | cut -b 1-15 > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' Dotfiles/installed.txt | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' Dotfiles/installed.txt | cut -b 1-15 > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' .zsh_history | cut -d -b 1-15 > Dotfiles/installed.txt
+grep -e 'install|git clone|wget' .zsh_history | cut -b 1-15 > Dotfiles/installed.txt
+cat .zsh_history | grep -e "install|git clone| wget" > Dotfiles/installed.txt
+cat .zsh_history | grep -e 'install|git clone|wget' > Dotfiles/installed.txt
+cat .zsh_history | grep -e 'install'|'git clone'|'wget' > Dotfiles/installed.txt
+sed "/:/,/;/d" .zsh_history | grep -e "install" -e "git clone" -e "wget" > Dotfiles/installed.txt
+sed "/:/,/;/d" .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -f1,2 -d .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -d -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -d ";" -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -d ":" -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -f 2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -d " " -f 2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+cut -b 1-15 --complement .zsh_history | grep -e "install" > Dotfiles/installed.txt

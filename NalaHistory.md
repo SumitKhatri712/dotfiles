@@ -43,3 +43,6 @@
   42    install cpufetch      2022-12-08 17:34:32 IST          1    pop-os (999)  
   43    install lolcat        2022-12-08 17:42:09 IST         12    pop-os (999)  
   44    install pinta         2022-12-08 22:08:01 IST         31    pop-os (999)  
+  45    purge pinta           2022-12-10 18:01:30 IST         29    pop-os (999)  
+  46    install syncthing     2022-12-10 18:43:27 IST          1    pop-os (999)  
+  47    install dconf-edi…    2022-12-10 22:35:04 IST          1    pop-os (999)  
