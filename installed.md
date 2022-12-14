@@ -172,3 +172,4 @@ cut -d " " -f 2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
 cut -b 1-15 --complement .zsh_history | grep -e "install" > Dotfiles/installed.txt
 cat .zsh_history | grep -E 'install\|git clone\|wget' > Dotfiles/installed.md
 cat .zsh_history | grep -E 'install|git clone|wget' > Dotfiles/installed.md
+sudo nala install spotify-client
