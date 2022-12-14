@@ -144,3 +144,31 @@
 : 1670514529:0;sudo install pfetch/pfetch /usr/local/bin/\
 : 1670514540:0;sudo install pfetch/pfetch /usr/local/bin/\
 : 1670517387:0;sudo nala install pinta
+: 1670520502:0;sudo install aircrack-ng
+: 1670520509:0;sudo nala install aircrack-ng
+: 1670677969:0;sudo nala install syncthing
+: 1670691849:0;pip3 install --user nautilus-open-any-terminal
+: 1670691897:0;sudo nala install dconf-editor
+: 1671019797:0;cut -b 1-15 installed.md
+: 1671020209:0;cat .zsh_history | grep -e 'install|git clone|wget' | cut -b 1-15 > Dotfiles/installed.txt
+: 1671020269:0;grep -e 'install|git clone|wget' | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+: 1671020287:0;grep -e 'install|git clone|wget' | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+: 1671020412:0;grep -e 'install|git clone|wget' Dotfiles/installed.txt | cut -b 1-15 ~/.zsh_history > Dotfiles/installed.txt
+: 1671020452:0;grep -e 'install|git clone|wget' Dotfiles/installed.txt | cut -b 1-15 > Dotfiles/installed.txt
+: 1671020521:0;grep -e 'install|git clone|wget' .zsh_history | cut -d -b 1-15 > Dotfiles/installed.txt
+: 1671020529:0;grep -e 'install|git clone|wget' .zsh_history | cut -b 1-15 > Dotfiles/installed.txt
+: 1671020670:0;cat .zsh_history | grep -e "install|git clone| wget" > Dotfiles/installed.txt
+: 1671020712:0;cat .zsh_history | grep -e 'install|git clone|wget' > Dotfiles/installed.txt
+: 1671020776:0;cat .zsh_history | grep -e 'install'|'git clone'|'wget' > Dotfiles/installed.txt
+: 1671021434:0;sed "/:/,/;/d" .zsh_history | grep -e "install" -e "git clone" -e "wget" > Dotfiles/installed.txt
+: 1671021455:0;sed "/:/,/;/d" .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671021670:0;cut -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671021700:0;cut -f1,2 -d .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671021710:0;cut -d -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671021826:0;cut -d ";" -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671021858:0;cut -d ":" -f1,2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671022043:0;cut -f 2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671022062:0;cut -d " " -f 2 .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671022124:0;cut -b 1-15 --complement .zsh_history | grep -e "install" > Dotfiles/installed.txt
+: 1671022456:0;cat .zsh_history | grep -E 'install\|git clone\|wget' > Dotfiles/installed.md
+: 1671022480:0;cat .zsh_history | grep -E 'install|git clone|wget' > Dotfiles/installed.md
