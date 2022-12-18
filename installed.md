@@ -176,7 +176,6 @@ sudo nala install spotify-client
 grep "installer" .zsh_history
 sudo apt install pop-installer
 sudo apt purge pop-installer
-<<<<<<< HEAD
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
 cd pfetch-install
@@ -222,5 +221,18 @@ sudo pip3 install nautilus-open-any-terminal
 sudo apt install python3-pip
 sudo pip3 install nautilus-open-any-terminal
 pip3 install nautilus-open-any-terminal
-=======
->>>>>>> 46a6291387c7254f456f2e2aa9fbab8f19799415
+wget -qO- https://raw.githubusercontent.com/KaspianDev/Kitty-Nautilus/main/install.sh | bash 
+./tools/update-extension-user.sh uninstall
+sudo tools/update-extension-system.sh uninstall
+pip uninstall --user nautilus-open-any-terminal
+pip uninstall nautilus-open-any-terminal
+pip install --user nautilus-open-any-terminal
+./tools/update-extension-user.sh install 
+pip uninstall --user nautilus-open-any-terminal
+pip uninstall nautilus-open-any-terminal
+pip --user uninstall nautilus-open-any-terminal
+pip install --user nautilus-open-any-terminal
+sudo nala install --reinstall git
+sudo apt install --reinstall git
+pip uninstall nautilus-open-any-terminal
+sudo pip uninstall nautilus-open-any-terminal
