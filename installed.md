@@ -236,3 +236,20 @@ sudo nala install --reinstall git
 sudo apt install --reinstall git
 pip uninstall nautilus-open-any-terminal
 sudo pip uninstall nautilus-open-any-terminal
+sudo nala install ncdu
+sudo nala install micro
+sudo nala install exa
+sudo nala install spotify
+apt search libreoffice --installer
+apt search libreoffice | grep  'installer'
+flatpak install spotify.client
+sudo apt install curl libcanberra-gtk-module software-properties-common apt-transport-https gnupg2 ubuntu-keyring -y
+wget -O- https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/spotify.gpg
+sudo apt install spotify-client
+sudo nala install vnstat
+pip install spotify-cli-linux
+pip install spotify-cli-linux --upgrade
+pip3 install spotify-cli-linux
+sudo nala install spotify
+sudo apt install spotify
+sudo nala install spotify-client

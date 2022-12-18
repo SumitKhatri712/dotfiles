@@ -28,3 +28,6 @@
   27    install dconf-editor                     2022-12-17 23:52:15 IST          1    sumit (1000)  
   28    install gnome-tweaks                     2022-12-17 23:55:41 IST          1    sumit (1000)  
   29    purge libreoffice-core                   2022-12-18 17:16:42 IST         48    sumit (1000)  
+  30    install exa                              2022-12-18 20:32:18 IST          1    sumit (1000)  
+  31    install vnstat                           2022-12-18 21:24:42 IST          1    sumit (1000)  
+  32    install spotify-client                   2022-12-18 22:17:36 IST          5    sumit (1000)  
