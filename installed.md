@@ -173,3 +173,51 @@ cut -b 1-15 --complement .zsh_history | grep -e "install" > Dotfiles/installed.t
 cat .zsh_history | grep -E 'install\|git clone\|wget' > Dotfiles/installed.md
 cat .zsh_history | grep -E 'install|git clone|wget' > Dotfiles/installed.md
 sudo nala install spotify-client
+grep "installer" .zsh_history
+sudo apt install pop-installer
+sudo apt purge pop-installer
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone https://github.com/Nioobers/pfetch-install && cd pfetch install
+cd pfetch-install
+sudo bash install.sh
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+./install.sh
+sudo ./install.sh
+sudo nala install micro
+sudo nala install tldr
+sudo nala install batcat
+sudo nala install bat
+sudo nala install cava
+sudo nala install gnome-shell-extension-manager
+sudo nala install dos2unix
+sudo nala install tty-clock
+sudo nala install cmatrix
+sudo nala install cbonsai
+sudo nala install autojump
+sudo nala install timeshift
+sudo nala install progress
+sudo nala install coreutils
+sudo nala install ubuntu-restricted-extras
+sudo nala install rsync grsync
+sudo nala install gh
+sudo nala install godot
+sudo nala install godot3
+sudo nala install crond
+sudo nala install cron
+sudo nala install folder-color
+sudo nala install rofi
+sudo nala install openssh-client
+sudo nala install nmap
+sudo nala install lolcat
+sudo nala install syncthing
+sudo nala install dconf-editor
+sudo nala install dconf-editor
+sudo nala install gnome-tweaks
+sudo nala install syncthing
+sudo nala purge pop-installer
+pip install nautilus-open-any-terminal
+pip3 install nautilus-open-any-terminal
+sudo pip3 install nautilus-open-any-terminal
+sudo apt install python3-pip
+sudo pip3 install nautilus-open-any-terminal
+pip3 install nautilus-open-any-terminal
