@@ -253,3 +253,7 @@ pip3 install spotify-cli-linux
 sudo nala install spotify
 sudo apt install spotify
 sudo nala install spotify-client
+sudo nala install gnome-menus
+sudo nala install girl.2-gmenu
+sudo nala install gir1.2-gmenu
+sudo nala install gir1.2-gmenu-3.0
