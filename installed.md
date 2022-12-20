@@ -257,3 +257,19 @@ sudo nala install gnome-menus
 sudo nala install girl.2-gmenu
 sudo nala install gir1.2-gmenu
 sudo nala install gir1.2-gmenu-3.0
+wget https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)"
+sudo bash install.sh
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh)
+curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh)
+./install.sh
+sudo bash ./install.sh
+sudo apt install dirmngr ca-certificates software-properties-common gnupg gnupg2 apt-transport-https -y
+sudo wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+sudo wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+sudo apt install apt-transport-https gnupg2 -y
+wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg
+sudo wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscodium.gpg

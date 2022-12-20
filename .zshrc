@@ -117,4 +117,5 @@ source /usr/share/autojump/autojump.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #neofetch
 pokemon-colorscripts -r
-export PATH="/home/sumit/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/go/bin/:$PATH"
+typeset -U PATH
