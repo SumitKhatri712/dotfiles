@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias pokescript='pokemon-colorscripts -r'
 alias bat='batcat'
 export PATH="$HOME/.cargo/bin:$PATH"
+alias python='python3'
 
 plugins=(git extract web-search yum git-extras docker vagrant)
 source /usr/share/autojump/autojump.zsh

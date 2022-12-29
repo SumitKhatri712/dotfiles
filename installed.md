@@ -288,3 +288,4 @@ sudo nala install code
 /bin/python3 -m pip install -U autopep8
 sudo nala install 
 sudo nala install anki
+pip3 install --upgrade pip
