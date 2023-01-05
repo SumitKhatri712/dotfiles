@@ -67,8 +67,14 @@ echo "=========Updating git repository========="
 echo " "
 
 # Push the Dotfiles folder
+commit=$(date)
 cd ~/Dotfiles
 git add .
-read -p "Enter a Commit: " commit
+read -p "Enter a Commit: " temp
+if [ "$temp" != ""]; then
+	commit=$temp
+fi
+echo $commit
+
 git commit -m "$commit"
 git push
