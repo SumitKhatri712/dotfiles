@@ -289,3 +289,18 @@ sudo nala install code
 sudo nala install 
 sudo nala install anki
 pip3 install --upgrade pip
+history | grep "apt install"
+sudo nala install python-is-python3
+sudo apt install vim
+sudo nala install spotify-clientt
+sudo nala install spotify-client
+history | grep "apt install"
+sudo nala install cava
+sudo nala install mc
+sudo nala install lf
+sudo nala install lfm
+sudo nala install Lf
+sudo nala install vifm
+cat "Some programming languages and tools install are "
+cat "Some programming languages and tools install are " > Languages.md
+echo "Some programming languages and tools install are " > Languages.md
